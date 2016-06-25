@@ -1,0 +1,36 @@
+{
+  "name": "test-job-bincenter",
+  "version": "0.0.1",
+  "description": "test job for bincenter",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "copy-webpack-plugin": "^3.0.1",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "jade": "^1.11.0",
+    "jade-loader": "^0.8.0",
+    "node-sass": "^3.8.0",
+    "postcss": "^5.0.21",
+    "sass-loader": "^3.2.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-hot-middleware": "^2.10.0"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server --content-base dist/"
+  },
+  "author": "Alexey Sosnovsky",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sosnovskyas/test-job-bincenter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sosnovskyas/test-job-bincenter/issues"
+  },
+  "homepage": "https://github.com/sosnovskyas/test-job-bincenter#readme"
+}
